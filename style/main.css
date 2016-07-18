@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+              
+body {
+    background-color: #2B2B2A;
+    font-family: 'Roboto Slab', serif;
+    color: #ffffff;
+}
+
+.bg-danger, .bg-success {
+    padding: 0 5px;
+}
+
+a {
+    color: #EF1F2F;
+    text-decoration: none;
+}
+
+#login-popup {
+     position: absolute;
+     display: none;
+     right: 0;
+     z-index: 1;
+     width: 600px;
+     margin-top: 75px;
+     margin-right: 30px;
+     border-radius: 5px;
+     background-color: white;
+     height: 350px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ 
+#image2 {
+    background-image: url("http://motoracing.org/efnetmoto/images/dakar.jpg");
+}
+ 
+#image3 {
+    background-image: url("http://motoracing.org/efnetmoto/images/street.jpg");
+}
+ 
+#image4 {
+    background-image: url("http://motoracing.org/efnetmoto/images/motocross.jpg");
+}
+ 
+#background-container {
+    position: relative;
+    width: 100%;
+//    float: left;
+    opacity: 0;
+}
+ 
+.background-fade {
+    background: transparent url("http://motoracing.org/efnetmoto/images/supermoto.jpg") no-repeat center center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 575px;
+    width: 100%;
+}
+ 
+ 
+.efnetmoto {
+    position: absolute;
+    width: 35%;
+    margin-top: 475px;
+    margin-right: 25px;
+    z-index: 1;
+    right: 0;
+}
+ 
+.menu-btn {
+    float: left;
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffc933;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    outline: none;
+    margin-left: 25px;
+    text-align: center;
+    background-color: Transparent;
+}
+ 
+#menu {
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+.login-btn {
+    position: absolute;
+    right: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: #3F3F41;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    z-index: 1;
+    margin-right: 30px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: lightgreen;
+    outline: none;
+}
+ 
+.login-btn:hover, .offcanvas .login-btn:focus {
+    color: #F4F2F4;
+}
+
+.username{
+    color: #ffc933;
+    position: absolute;
+    width: 200px;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+} 
+.nav {
+    height: 575px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #33CCFF;
+    overflow: hidden;
+    transition: 0.6s;
+    padding-top: 60px;
+}
+ 
+.nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #3F3F41;
+    font-weight: 500;
+    display: block;
+    transition: 0.3s;
+}
+ 
+.nav a:hover,  a:focus {
+    color: white;
+}
+ 
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #3F3F41;
+    margin-left: 50px;
+    outline: none;
+    background: Transparent;
+}
+
+p, h1, h2, h3 {
+    padding: 0 0 20px 0;
+}
+
+#page-1 div {
+    max-width: 500px;
+    vertical-align: top;
+    margin: 0 50px 50px 50px;
+    padding: 0 45px 45px 45px;
+    text-align: left;
+    display: inline-block;
+}
+
+#page-1 a {
+    color: #ffc933;
+    text-decoration: none;
+}
+
+#page-1 a:hover, a:focus {
+    opacity: 0.5;
+}
+
+div #side2 {
+    margin-top: 79px;
+}
+
+#page-1 {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+#page-1 h1 {
+    text-align: left;
+}
+
+#about {
+    color: #ff3863;
+}
+
+#page-header {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:575px;
+}
+
+.container {
+    padding: 0 0 50px 0;
+} 
