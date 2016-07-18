@@ -13,16 +13,13 @@
 
 <div id="page-header">
 
-    <button class="menu-btn">&equiv;<div id="menu">menu</div></button>
+    <button class="menu-btn">&equiv;<div id="menu">menu</a></button>
  
     <?php
         if( $user->is_logged_in() ){ echo '<p class="username">' . $_SESSION["username"] . '</p>'; }
     ?>
 
-    <div class="dropdown">
-        <button class="login-btn">login</button>
-        <?php /*require('login.php');*/ ?>
-    </div>
+    <a class="login-btn" href="login.php">login</a>
 
     <div id="background-container">
         <div class="background-fade" id="image1"></div>

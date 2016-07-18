@@ -14,12 +14,12 @@ body {
     padding: 0 5px;
 }
 
-a {
+.container a {
     color: #EF1F2F;
     text-decoration: none;
 }
 
-#login-popup {
+/*#login-popup {
      position: absolute;
      display: none;
      right: 0;
@@ -31,7 +31,7 @@ a {
      background-color: white;
      height: 350px;
      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
+}*/
  
 #image2 {
     background-image: url("http://motoracing.org/efnetmoto/images/dakar.jpg");
@@ -100,6 +100,7 @@ a {
     right: 0;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
+    font-weight: 400;
     color: #3F3F41;
     text-align: center;
     width: 150px;
@@ -110,8 +111,13 @@ a {
     border-radius: 15px;
     background-color: lightgreen;
     outline: none;
+    line-height: 1.5;
 }
- 
+
+#page-header a, #page-header a:visited {
+    text-decoration: none;
+}
+
 .login-btn:hover, .offcanvas .login-btn:focus {
     color: #F4F2F4;
 }
